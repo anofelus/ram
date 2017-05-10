@@ -4,14 +4,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ram</title>
-  <link rel="stylesheet" type="text/css" href="ress.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- stylesheetの読み込み -->
+  <link rel="stylesheet" type="text/css" href="css/ress.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- jQueryの読み込み -->
+  <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-test<br>
-あああああ
-<p>
-    テスト
-</p>
+    <div id ="wrap">
+        <header>
+            <div class="logo">
+                <a href=""><img src="img/logo.png" alt="main" width="50"></a></div>
+            <div class="comment">
+                Toraco's Portfolio<br>
+                Design and Illustration.
+            </div>
+            <ul class="nav">
+                <ol class="manu"><a class="m about-me-show" href="">About me</a></ol>
+                <ol class="manu"><a class="m" href="">Works</a></ol>
+                <ol class="manu"><a class="m" href="">Blog</a></ol>
+            </ul>
+        </header>
+        <div class="modal" id="about-me">
+                <p class="prof-t">
+                Profile
+                </p>
+                <p class="prof-n">
+                虎硬(とらこ/toraco)1986.1.12
+                </p>
+                <p class="prof-text">
+                illustrator,designer<br>
+                TOKYO JAPAN<br>
+                pixiv/twitter<br>
+                info*anofelus.com<br>
+                last update:2013.11.1<br>
+                Copyright(c) 2004-2013 虎硬 All rights reserved.
+                </p>
+            </div>
+        <div id ="contain">
+            <div class="main-img">
+            <img src="img/main-img.png" alt="main" width="700">
+            </div>
+        </div>
+    </div>
+<script src="js/func.js"></script>
 </body>
 </html>

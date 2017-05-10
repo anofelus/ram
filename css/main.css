@@ -1,0 +1,59 @@
+/* リンクの設定 */
+a{
+    text-decoration: none;
+    color: white;
+}
+a.m:hover{
+    color: yellow;
+    border-bottom: 4px solid #fff; 
+}
+
+/* About me */
+#about-me{
+  display:none;
+}
+
+/* body要素 */
+
+body{
+    background-color: #ff1d25;
+    color: #fff;
+}
+
+header{
+    padding: 10px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.comment{
+    float: left;
+    widows: 600px;
+    height: 50px;
+    margin: 5px 20px;
+    font-size: 12px;
+}
+
+.nav{
+    float: right;
+}
+
+.manu{
+    display: inline-block;
+    margin: 5px 10px;
+    clear: both;
+}
+
+#contain{
+    display: block; /* ブロックレベルに変更 */
+    margin: 0 auto;
+}
+
+.main-img{
+    padding-top: 100px;
+    text-align: center;
+}
