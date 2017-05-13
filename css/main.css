@@ -3,22 +3,28 @@ a{
     text-decoration: none;
     color: white;
 }
-a.m:hover{
+a:hover{
+    color: yellow;
+}
+
+/* リンクの設定 */
+.m{
+    text-decoration: none;
+    color: white;
+}
+.m:hover{
     color: yellow;
     border-bottom: 4px solid #fff; 
 }
 
-/* About me */
-#about-me{
-  display:none;
-}
-
-/* body要素 */
+/* body */
 
 body{
     background-color: #ff1d25;
     color: #fff;
 }
+
+/* ヘッダー部分 */
 
 header{
     padding: 10px;
@@ -48,9 +54,57 @@ header{
     clear: both;
 }
 
+/* About me */
+.modal-wrapper{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#about-me{
+    /*  display:none; */
+}
+
+.modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-prof{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+/* プロフィール部分 */
+
+.prof-n{
+    padding: 10px 0;
+}
+
+.prof-img{
+    padding-top: 20px;
+}
+
+.mail{
+    font-size:40px;
+}
+
+.copy{
+    padding-top:30px;
+    font-size:16px;
+}
+
+/* メイン部分 */
+
 #contain{
     display: block; /* ブロックレベルに変更 */
     margin: 0 auto;
+    height: auto;
 }
 
 .main-img{
