@@ -4,7 +4,7 @@ $(function() {
   $('#about-me').fadeIn();
   });
 
-  $('.back,.modal-wrapper').unbind().click(function() {
+  $('.back').unbind().click(function() {
   $('#about-me').fadeOut();
   });
 
