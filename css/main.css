@@ -67,11 +67,11 @@ header{
     left: 0;
     z-index: 1;
 }
-/* 
+
 #about-me{
     display:none;
 }
-*/
+
 #modal {
     height: 100%;
 }
@@ -105,9 +105,18 @@ header{
     font-size:40px;
 }
 
+.prof-text-en{
+    padding: 10px 0;
+}
+
+.client{
+    font-size:12px;
+    padding:10px 0;
+}
+
 .copy{
     padding-top:30px;
-    font-size:16px;
+    font-size:10px;
 }
 
 /* メイン部分 */
